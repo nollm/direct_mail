@@ -48,6 +48,7 @@ class DmailController extends MainController
      * @var int
      */
     protected int $uid = 0;
+    protected array $MOD_SETTINGS = [];
 
     protected bool $backButtonPressed = false;
 
