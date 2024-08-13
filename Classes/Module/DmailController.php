@@ -48,6 +48,7 @@ class DmailController extends MainController
      * @var int
      */
     protected int $uid = 0;
+    protected array $MOD_SETTINGS = [];
 
     protected bool $backButtonPressed = false;
 
@@ -784,7 +785,7 @@ class DmailController extends MainController
         if ($dmail['sys_dmail']['NEW']['pid'] && $dmail['sys_dmail']['NEW']['sendOptions']) {
             /* @var $dataHandler \TYPO3\CMS\Core\DataHandling\DataHandler */
             $dataHandler = $this->getDataHandler();
-            $dataHandler->stripslashes_values = 0;
+            //$dataHandler->stripslashes_values = 0;
             $dataHandler->start($dmail, []);
             $dataHandler->process_datamap();
             $this->sys_dmail_uid = $dataHandler->substNEWwithIDs['NEW'];
@@ -1724,7 +1725,7 @@ class DmailController extends MainController
 
             /* @var $dataHandler \TYPO3\CMS\Core\DataHandling\DataHandler */
             $dataHandler = $this->getDataHandler();
-            $dataHandler->stripslashes_values = 0;
+            //$dataHandler->stripslashes_values = 0;
             $dataHandler->start($data, []);
             $dataHandler->process_datamap();
 
@@ -1887,7 +1888,7 @@ class DmailController extends MainController
 
             /* @var $dataHandler \TYPO3\CMS\Core\DataHandling\DataHandler */
             $dataHandler = $this->getDataHandler();
-            $dataHandler->stripslashes_values = 0;
+            //$dataHandler->stripslashes_values = 0;
             $dataHandler->start($tcemainData, []);
             $dataHandler->process_datamap();
             $result = $dataHandler->substNEWwithIDs['NEW'];
@@ -1968,7 +1969,7 @@ class DmailController extends MainController
 
             /* @var $dataHandler \TYPO3\CMS\Core\DataHandling\DataHandler */
             $dataHandler = $this->getDataHandler();
-            $dataHandler->stripslashes_values = 0;
+            //$dataHandler->stripslashes_values = 0;
             $dataHandler->start($tcemainData, []);
             $dataHandler->process_datamap();
             $result = $dataHandler->substNEWwithIDs['NEW'];
