@@ -71,31 +71,31 @@
       <trans-unit id="configure_http_username_details" resname="configure_http_username_details" xml:space="preserve">
 				<source><![CDATA[The username and password is used to fetch mail content. They are NOT sent in the mail!
 	If you do not specify a username and password and the newsletter pages happen to be protected, an error will occur and no mail content will be fetched.]]></source>
-			<target state="needs-translation"><![CDATA[The username and password is used to fetch mail content. They are NOT sent in the mail!
-	If you do not specify a username and password and the newsletter pages happen to be protected, an error will occur and no mail content will be fetched.]]></target></trans-unit>
+			<target state="translated"><![CDATA[Brugernavnet og adgangskoden bruges til at hente mailindhold. De sendes IKKE i mailen!
+	- Hvis du ikke angiver et brugernavn og adgangskode og nyhedsbrevets sider tilfældigvis er beskyttet, vil der opstå en fejl og intet mailindhold vil blive hentet.]]></target></trans-unit>
       <trans-unit id="configure_jumpurl_tracking_privacy" resname="configure_jumpurl_tracking_privacy">
         <source>Privacy jumpurl</source>
-        <target state="needs-translation">Privacy jumpurl</target>
+        <target state="translated">Privatliv jumpurl</target>
       </trans-unit>
       <trans-unit id="configure_jumpurl_tracking_privacy_description" resname="configure_jumpurl_tracking_privacy_description">
         <source>Set this option, to anonymize click statistics </source>
-        <target state="needs-translation">Set this option, to anonymize click statistics </target>
+        <target state="translated">Angiv denne indstilling for at anonymiserer klikstatistikken </target>
       </trans-unit>
       <trans-unit id="configure_options_additional" resname="configure_options_additional">
         <source>Additional module options</source>
-        <target state="needs-translation">Additional module options</target>
+        <target state="translated">Yderligere muligheder i modulet</target>
       </trans-unit>
       <trans-unit id="configure_options_encoding" resname="configure_options_encoding">
         <source>Options for content transfer encoding and character set</source>
-        <target state="needs-translation">Options for content transfer encoding and character set</target>
+        <target state="translated">Indstillinger for tegnsæt til indholdsoverførsel og tegnsæt</target>
       </trans-unit>
       <trans-unit id="configure_options_links" resname="configure_options_links">
         <source>Options for links in mail content</source>
-        <target state="needs-translation">Options for links in mail content</target>
+        <target state="translated">Muligheder for links i mailindhold</target>
       </trans-unit>
       <trans-unit id="configure_options_links_jumpurl" resname="configure_options_links_jumpurl">
         <source>Enable jump URL's:</source>
-        <target state="needs-translation">Enable jump URL's:</target>
+        <target state="translated">Aktivér jump-URL'er:</target>
       </trans-unit>
       <trans-unit id="configure_options_links_jumpurl_description" resname="configure_options_links_jumpurl_description">
         <source>Check this option to enable jump URL's and the collection of click statistics.</source>
@@ -123,7 +123,7 @@
       </trans-unit>
       <trans-unit id="configure_plain_and_html" resname="configure_plain_and_html">
         <source>Plain text and HTML</source>
-        <target state="needs-translation">Plain text and HTML</target>
+        <target state="translated">Almindelig tekst og HTML</target>
       </trans-unit>
       <trans-unit id="configure_plain_only" resname="configure_plain_only">
         <source>Plain text only</source>
