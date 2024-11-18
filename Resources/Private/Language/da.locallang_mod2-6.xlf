@@ -99,27 +99,27 @@
       </trans-unit>
       <trans-unit id="configure_options_links_jumpurl_description" resname="configure_options_links_jumpurl_description">
         <source>Check this option to enable jump URL's and the collection of click statistics.</source>
-        <target state="needs-translation">Check this option to enable jump URL's and the collection of click statistics.</target>
+        <target state="translated">Markér denne indstilling for at aktivere jump-URL'er og indsamling af klikstatistik.</target>
       </trans-unit>
       <trans-unit id="configure_options_links_rdct" resname="configure_options_links_rdct">
         <source>This configuration determines how QuickMails are handled and further sets the default value for Direct Mails.</source>
-        <target state="needs-translation">This configuration determines how QuickMails are handled and further sets the default value for Direct Mails.</target>
+        <target state="translated">Denne konfiguration bestemmer, hvordan QuickMails håndteres og sætter yderligere standardværdien for Direct Mails.</target>
       </trans-unit>
       <trans-unit id="configure_options_mailto_jumpurl" resname="configure_options_mailto_jumpurl">
         <source>Enable jump URL's for mailto links:</source>
-        <target state="needs-translation">Enable jump URL's for mailto links:</target>
+        <target state="translated">Aktivér jump-URL'er for mailto links:</target>
       </trans-unit>
       <trans-unit id="configure_options_mailto_jumpurl_description" resname="configure_options_mailto_jumpurl_description">
         <source>Check this option to enable jump URL's for mailto links.</source>
-        <target state="needs-translation">Check this option to enable jump URL's for mailto links.</target>
+        <target state="translated">Markér denne indstilling for at aktivere jump-URL'er for mailto-links.</target>
       </trans-unit>
       <trans-unit id="configure_plainParams_description" resname="configure_plainParams_description">
         <source>Enter the additional URL parameters used to fetch the plain text content from a TYPO3 page.</source>
-        <target state="needs-translation">Enter the additional URL parameters used to fetch the plain text content from a TYPO3 page.</target>
+        <target state="translated">Angiv de ekstra URL-parametre, der bruges til at hente det almindelige tekstindhold fra en TYPO3-side.</target>
       </trans-unit>
       <trans-unit id="configure_plainParams_details" resname="configure_plainParams_details">
         <source>The specified parameters will be added to the URL used to fetch the plain text content of the direct mail from a TYPO3 page. If in doubt, set it either to '&amp;type=99' or, when using TemplaVoila, to '&amp;print=1'.</source>
-        <target state="needs-translation">The specified parameters will be added to the URL used to fetch the plain text content of the direct mail from a TYPO3 page. If in doubt, set it either to '&amp;type=99' or, when using TemplaVoila, to '&amp;print=1'.</target>
+        <target state="translated">De angivne parametre vil blive tilføjet til den URL, der bruges til at hente plain-tekst indholdet af direct mail'en fra en TYPO3 side. Hvis du er i tvivl, indstil den enten til '&amp;type=99' eller, hvis du bruger TemplaVoila, til '&amp;print=1'.</target>
       </trans-unit>
       <trans-unit id="configure_plain_and_html" resname="configure_plain_and_html">
         <source>Plain text and HTML</source>
